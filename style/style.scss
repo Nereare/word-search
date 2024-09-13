@@ -1,0 +1,49 @@
+// Set charset
+@charset "utf-8";
+
+// Bulma variables
+$family-sans-serif : "Montserrat", sans-serif;
+$family-monospace  : "Roboto Mono", monospace;
+$primary           : {{PKG_PRIM_COLOR}};
+$link              : {{PKG_SEC_COLOR}};
+$title-color       : $primary;
+
+// Import bulma
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-checkradio/dist/css/bulma-checkradio.min.css";
+@import "../node_modules/bulma-switch/dist/css/bulma-switch.min.css";
+@import "../node_modules/@creativebulma/bulma-divider/dist/bulma-divider.min.css";
+
+html, body { text-align: justify; }
+input, select, option, textarea { font-family: $family-monospace; }
+h1, h2, h3, h4 { font-variant: small-caps; }
+
+// Set navburgers to white
+.navbar-burger { color: $white; }
+// Set short-menu elements to centered
+.navbar-menu { text-align: center; }
+// Set `.modal-card-foot` DIVs as centered
+.modal-card-foot div { margin-left: auto; margin-right: auto; }
+
+.page-404 {
+  display: block;
+  max-width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+De-comment this section if ever reimporting CodeMirror plugins
+.CodeMirror-scroll {
+  font-family: $family-monospace;
+  font-size: 0.75rem;
+}
+*/
+
+#notification {
+  width: 20em;
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  z-index: 100;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "{{PKG_REPO}}",
+  "description": "{{PKG_DESC}}",
+  "version": "{{PKG_VERS}}",
+  "maintainers": [
+    {
+      "name": "{{PKG_AUTHOR}}",
+      "email": "{{PKG_USEREMAIL}}",
+      "web": "{{PKG_USERURI}}"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/issues"
+  },
+  "license": "{{PKG_LICENSE_SPDX}}",
+  "dependencies": {
+    "@creativebulma/bulma-divider": "^1.1",
+    "@creativebulma/bulma-tagsinput": "^1.0",
+    "@mdi/font": "^7.2",
+    "bulma": "^0.9",
+    "bulma-checkradio": "^2.1",
+    "bulma-switch": "^2.0",
+    "jquery": "^3.6",
+    "normalize.css": "^8.0",
+    "typeface-montserrat": "^1.1",
+    "typeface-roboto-mono": "^1.1"
+  }
+}
