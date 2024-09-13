@@ -1,10 +1,10 @@
-# {{PKG_NAME}}
+# Word Search
 
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/{{PKG_USERNAME}}/{{PKG_REPO}})](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}})
-[![License](https://img.shields.io/github/license/{{PKG_USERNAME}}/{{PKG_REPO}}.svg)](LICENSE.md)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/word-search)](https://github.com/Nereare/word-search)
+[![License](https://img.shields.io/github/license/Nereare/word-search.svg)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE-OF-CONDUCT.md)
 
-{{PKG_DESCRIPTION}}
+A try at a short tool for search words in the english lexicon.
 
 ## Installing
 
@@ -35,8 +35,8 @@ By participating in this project you agree to abide by its terms.
 See the [Change Log](CHANGELOG.md) for further history.
 
 This project uses [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/tags).
+available, see the [tags on this repository](https://github.com/Nereare/word-search/tags).
 
 ## License
 
-This project is available under the [{{PKG_LICENSE_NAME}}]({{PKG_LICENSE_URI}}).
+This project is available under the [Do What The F*ck You Want To Public License](http://www.wtfpl.net/).
